@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['bread pudding', 'ramen', 'steak']
+
+roboflow:
+  workspace: calorie-counter-dnyjq
+  project: food-detector-hsejl
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/calorie-counter-dnyjq/food-detector-hsejl/dataset/1
